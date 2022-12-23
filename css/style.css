@@ -820,16 +820,10 @@ div:not([class]):not([id]) {
 
 #more-project {
   overflow: hidden;
+  max-height: 0px;
   transition: all 0.5s ease;
 }
 
-.hide-proj {
-  height: 0px;
-}
-
-.show-proj {
-  height: fit-content;
-}
 
 .proj-over {
   opacity: 0;
